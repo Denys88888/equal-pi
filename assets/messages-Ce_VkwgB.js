@@ -1,0 +1,1 @@
+import{c as e}from"./index-BO3pRSG7.js";const n={getMessages:async s=>{const{data:a}=await e.get(`/matches/${s}/messages`);return a},sendMessage:async(s,a,t="TEXT")=>{const{data:c}=await e.post(`/matches/${s}/messages`,{content:a,type:t});return c}};export{n as m};
